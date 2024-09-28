@@ -125,6 +125,7 @@ print(mystring_1.split(",")) #return ["Hello","Mimilar"]
 a="Mireille "
 b="Irafasha"
 print(a+b)
+print("e" not in a)
 
 #combine string and number But we can combine strings and numbers by using f-strings or the format() method!
 age=23
@@ -142,3 +143,33 @@ txt="my name is \"Denyse\""
 print(txt.capitalize())
 txt1=txt.center()
 print(txt1)
+
+#using bool() function
+txt3=""
+print(bool(txt3))
+
+#boolen value using function in if statement
+def myfunction():
+   return False
+if myfunction():
+   print("Yes")
+else:
+   print("No")
+   # using Logical operator(and,or,not)
+
+if(36>34 and 34>33):
+   print("Condition is True")
+else:
+   print("Condition is False")
+
+   #Python list
+   thisList=["Banana","Apple",'Mango','Orange','popcorn']
+   print(thisList)
+   print(len(thisList))
+   #using type() function
+   print(type(thisList))
+   #accessing item of list
+   print(thisList[0])
+   #negative indexing
+   print(thisList[-2])
+   
